@@ -1,0 +1,3 @@
+/home/uranus/桌面/stereo/build/CMakeFiles/rebuild_cache.dir
+/home/uranus/桌面/stereo/build/CMakeFiles/edit_cache.dir
+/home/uranus/桌面/stereo/build/CMakeFiles/stereo.dir
