@@ -123,6 +123,33 @@ stereo/fast:
 	$(MAKE) -f CMakeFiles/stereo.dir/build.make CMakeFiles/stereo.dir/build
 .PHONY : stereo/fast
 
+src/De_distortion.o: src/De_distortion.cpp.o
+
+.PHONY : src/De_distortion.o
+
+# target to build an object file
+src/De_distortion.cpp.o:
+	$(MAKE) -f CMakeFiles/stereo.dir/build.make CMakeFiles/stereo.dir/src/De_distortion.cpp.o
+.PHONY : src/De_distortion.cpp.o
+
+src/De_distortion.i: src/De_distortion.cpp.i
+
+.PHONY : src/De_distortion.i
+
+# target to preprocess a source file
+src/De_distortion.cpp.i:
+	$(MAKE) -f CMakeFiles/stereo.dir/build.make CMakeFiles/stereo.dir/src/De_distortion.cpp.i
+.PHONY : src/De_distortion.cpp.i
+
+src/De_distortion.s: src/De_distortion.cpp.s
+
+.PHONY : src/De_distortion.s
+
+# target to generate assembly for a file
+src/De_distortion.cpp.s:
+	$(MAKE) -f CMakeFiles/stereo.dir/build.make CMakeFiles/stereo.dir/src/De_distortion.cpp.s
+.PHONY : src/De_distortion.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... stereo"
+	@echo "... src/De_distortion.o"
+	@echo "... src/De_distortion.i"
+	@echo "... src/De_distortion.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

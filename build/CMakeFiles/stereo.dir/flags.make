@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/uranus/桌面/stereo/include -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/uranus/桌面/stereo/include -I/usr/include/eigen3 -isystem /usr/local/include/opencv4 
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/stereo"
   "../bin/stereo.pdb"
+  "CMakeFiles/stereo.dir/src/De_distortion.cpp.o"
   "CMakeFiles/stereo.dir/src/main.cpp.o"
 )
 

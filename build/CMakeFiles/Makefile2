@@ -74,12 +74,12 @@ clean: CMakeFiles/stereo.dir/clean
 CMakeFiles/stereo.dir/all:
 	$(MAKE) -f CMakeFiles/stereo.dir/build.make CMakeFiles/stereo.dir/depend
 	$(MAKE) -f CMakeFiles/stereo.dir/build.make CMakeFiles/stereo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/uranus/桌面/stereo/build/CMakeFiles --progress-num=1,2 "Built target stereo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/uranus/桌面/stereo/build/CMakeFiles --progress-num=1,2,3 "Built target stereo"
 .PHONY : CMakeFiles/stereo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stereo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uranus/桌面/stereo/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uranus/桌面/stereo/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stereo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/uranus/桌面/stereo/build/CMakeFiles 0
 .PHONY : CMakeFiles/stereo.dir/rule
