@@ -102,6 +102,12 @@ stereo_EXTERNAL_OBJECTS =
 ../bin/stereo: /usr/local/lib/libopencv_stitching.so.4.8.0
 ../bin/stereo: /usr/local/lib/libopencv_video.so.4.8.0
 ../bin/stereo: /usr/local/lib/libopencv_videoio.so.4.8.0
+../bin/stereo: /usr/local/lib/libpango_glgeometry.so
+../bin/stereo: /usr/local/lib/libpango_plot.so
+../bin/stereo: /usr/local/lib/libpango_python.so
+../bin/stereo: /usr/local/lib/libpango_scene.so
+../bin/stereo: /usr/local/lib/libpango_tools.so
+../bin/stereo: /usr/local/lib/libpango_video.so
 ../bin/stereo: /usr/local/lib/libopencv_imgcodecs.so.4.8.0
 ../bin/stereo: /usr/local/lib/libopencv_dnn.so.4.8.0
 ../bin/stereo: /usr/local/lib/libopencv_calib3d.so.4.8.0
@@ -109,6 +115,19 @@ stereo_EXTERNAL_OBJECTS =
 ../bin/stereo: /usr/local/lib/libopencv_flann.so.4.8.0
 ../bin/stereo: /usr/local/lib/libopencv_imgproc.so.4.8.0
 ../bin/stereo: /usr/local/lib/libopencv_core.so.4.8.0
+../bin/stereo: /usr/local/lib/libpango_geometry.so
+../bin/stereo: /usr/local/lib/libtinyobj.so
+../bin/stereo: /usr/local/lib/libpango_display.so
+../bin/stereo: /usr/local/lib/libpango_vars.so
+../bin/stereo: /usr/local/lib/libpango_windowing.so
+../bin/stereo: /usr/local/lib/libpango_opengl.so
+../bin/stereo: /usr/lib/x86_64-linux-gnu/libGLEW.so
+../bin/stereo: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+../bin/stereo: /usr/lib/x86_64-linux-gnu/libGLX.so
+../bin/stereo: /usr/lib/x86_64-linux-gnu/libGLU.so
+../bin/stereo: /usr/local/lib/libpango_image.so
+../bin/stereo: /usr/local/lib/libpango_packetstream.so
+../bin/stereo: /usr/local/lib/libpango_core.so
 ../bin/stereo: CMakeFiles/stereo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uranus/桌面/stereo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/stereo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereo.dir/link.txt --verbose=$(VERBOSE)

@@ -215,6 +215,9 @@ Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
+//The directory containing a CMake configuration file for Pangolin.
+Pangolin_DIR:PATH=/usr/local/lib/cmake/Pangolin
+
 //Value Computed by CMake
 stereo_BINARY_DIR:STATIC=/home/uranus/桌面/stereo/build
 
@@ -306,6 +309,14 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/uranus/桌面/stereo
@@ -373,4 +384,6 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.8.0()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 

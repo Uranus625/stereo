@@ -3,15 +3,18 @@
 
 int main()
 {
+    cv::Mat disparityMap;
     cv::Mat right_image = cv::imread("/home/uranus/桌面/stereo/image/right/right.jpg");
     cv::Mat left_image = cv::imread("/home/uranus/桌面/stereo/image/left/left.jpg");
 
     De_distortion(left_image, right_image); //去畸变
     stereo_correction(left_image, right_image); //立体校正
+    disparity_image(left_image, right_image);
 
+    cv::imwrite("/home/uranus/桌面/stereo/image/disparity.jpg", disparityMap);
+    // std::cout << disparityMap << std::endl;
     // cv::imshow("right_image", right_image);
     // cv::imshow("left_image", left_image);
-    cv::waitKey(0);
     cv::destroyAllWindows();
 }
 

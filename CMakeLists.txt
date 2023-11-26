@@ -4,6 +4,7 @@ project(stereo)
 
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)
+find_package(Pangolin REQUIRED)
 
 include_directories(include)
 include_directories("/usr/include/eigen3")
@@ -12,5 +13,5 @@ include_directories("/usr/include/eigen3")
 aux_source_directory (./src SRC_LIST)
 
 add_executable (stereo ${SRC_LIST})
-target_link_libraries(stereo ${OpenCV_LIBS})
+target_link_libraries(stereo ${OpenCV_LIBS} ${Pangolin_LIBRARIES})
 set (EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

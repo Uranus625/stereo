@@ -15,6 +15,14 @@ Eigen/Dense
 -
 opencv2/opencv.hpp
 -
+vector
+-
+pangolin/pangolin.h
+-
+unistd.h
+-
+string
+-
 
 /home/uranus/桌面/stereo/src/De_distortion.cpp
 De_distortion.h
