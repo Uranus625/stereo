@@ -6,10 +6,11 @@ int main()
     cv::Mat right_image = cv::imread("/home/uranus/桌面/stereo/image/right/right.jpg");
     cv::Mat left_image = cv::imread("/home/uranus/桌面/stereo/image/left/left.jpg");
 
-    De_distortion(left_image, right_image);
+    De_distortion(left_image, right_image); //去畸变
+    stereo_correction(left_image, right_image); //立体校正
 
     // cv::imshow("right_image", right_image);
-    cv::imshow("left_image", left_image);
+    // cv::imshow("left_image", left_image);
     cv::waitKey(0);
     cv::destroyAllWindows();
 }

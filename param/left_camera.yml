@@ -7,8 +7,8 @@ K: !!opencv-matrix
    data: [ 2.7531e+03, 0., 6.336836e+02, 0.,
            2.7554e+03, 4.370061e+02, 0., 0., 1. ]
 D: !!opencv-matrix
-   rows: 1
-   cols: 5
+   rows: 5
+   cols: 1
    dt: d
    data: [ -0.109, 0.4659,
            -7.6007e-04, -0.0033,
